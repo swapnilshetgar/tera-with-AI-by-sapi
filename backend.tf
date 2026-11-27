@@ -4,6 +4,6 @@ terraform {
   backend "s3" {
     bucket = "sapi-bkt-12345"
     key    = "dev/terraform.tfstate"  # S3 ke andar file ka path
-    region = "us-east-1"              # Aapka AWS region (apne region ke hisab se badlein)
+    region = "ap-south-1"              # Aapka AWS region (apne region ke hisab se badlein)
   }
 }
